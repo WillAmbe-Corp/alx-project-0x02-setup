@@ -1,3 +1,4 @@
-interface Props{
-    name: string
+interface CardProps{
+    title: string,
+    content: string
 }
