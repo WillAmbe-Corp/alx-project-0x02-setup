@@ -6,7 +6,11 @@ export interface PostModalProps{
     onClose: () => void,
     onSubmit: (post: CardProps) => void
 }
+export type Shape = 'rounded-sm' | 'rounded-md' | 'rounded-full';
+export type Size = 'small' | 'medium' | 'large'
 export interface ButtonProps{
     title:  string;
+    shape?: Shape;
+    size?: Size;
     className?: string;
 }
