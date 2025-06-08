@@ -2,7 +2,7 @@ import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { useState } from "react";
 import { CardProps } from "@/interfaces";
-import Button from "@/components/common/button";
+import Button from "@/components/common/Button";
 
 const HomePage: React.FC = () => {
 
