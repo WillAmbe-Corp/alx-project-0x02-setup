@@ -20,11 +20,11 @@ const Posts: React.FC<PostProps[]> = ({posts}) => {
 }
 
 export async function getStaticProps() {
-    const res = await fetch("https//jsonplaceholder.typicode.com/users:")
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
     const posts = await res.json();
 
     return{
-        Props: (posts)
+        props: (posts)
     }
 }
 
