@@ -14,3 +14,8 @@ export interface ButtonProps{
     size?: Size;
     className?: string;
 }
+export interface PostProps{
+    title: string;
+    content: string;
+    userId: number;
+}
