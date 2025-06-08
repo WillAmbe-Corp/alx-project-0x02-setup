@@ -2,6 +2,7 @@ import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { useState } from "react";
 import { CardProps } from "@/interfaces";
+import Header from "@/components/layout/Header";
 const HomePage: React.FC = () => {
 
     const [modal, setModal] = useState(false)
@@ -14,6 +15,7 @@ const HomePage: React.FC = () => {
     }
     return (
         <>
+        <Header />
         <div>
             <div>
                 <button onClick={handleClick}>Show Modal</button>
